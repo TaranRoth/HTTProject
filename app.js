@@ -124,3 +124,7 @@ app.delete('/api/songs/:id', (req, res) => {
 app.listen(port, () => {
     console.log(`App listening on port ${port}`);
 })
+
+// 1. The front end of a website accepts requests via the URL, which prompt actions in the backend that have been set up by the developer.
+// 2. I learned about the different kinds of requests, such as PUT and DELETE, as well as their functions.
+// This project could be extended by including some of the other requests types available on Postman, such as PATCH or PURGE.
